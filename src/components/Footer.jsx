@@ -34,6 +34,17 @@ const Footer = () => {
           <p className="text-gray-400">
             © 2025 Advocate Together Coaching LLC. All rights reserved.
           </p>
+          <p className="text-gray-500 text-sm">
+            Proudly built by{' '}
+            <a 
+              href="https://www.linkedin.com/in/john-castrillon-a50141b8/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-pink-400 hover:text-pink-300 transition-colors duration-200 font-medium"
+            >
+              John
+            </a>
+          </p>
         </div>
       </div>
     </footer>

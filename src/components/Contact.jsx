@@ -1,28 +1,28 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 // Contact Section
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   message: ''
+  // });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! We\'ll get back to you soon.');
-    setFormData({ name: '', email: '', message: '' });
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Handle form submission here
+  //   console.log('Form submitted:', formData);
+  //   alert('Thank you for your message! We\'ll get back to you soon.');
+  //   setFormData({ name: '', email: '', message: '' });
+  // };
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
+  // const handleChange = (e) => {
+  //   setFormData({
+  //     ...formData,
+  //     [e.target.name]: e.target.value
+  //   });
+  // };
 
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-purple-900 to-pink-900 text-white">
@@ -62,7 +62,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
+          {/* <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
@@ -110,7 +110,7 @@ const Contact = () => {
                 Send Message
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

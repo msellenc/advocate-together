@@ -36,7 +36,7 @@ const Services = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive coaching services designed to help you unlock your potential and create lasting change.
+            Educational consultant and special education advocacy coach.
           </p>
         </div>
 

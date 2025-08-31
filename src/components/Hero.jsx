@@ -17,7 +17,7 @@ const Hero = () => {
               Transform your life through personalized coaching that helps you find your voice, 
               build confidence, and create meaningful change in your personal and professional journey.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            {/* <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button className="bg-gradient-to-r from-purple-600 to-pink-500 text-white px-8 py-4 rounded-full font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
                 Start Your Journey
                 <ArrowRight className="inline ml-2" size={20} />
@@ -25,7 +25,7 @@ const Hero = () => {
               <button className="border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-full font-semibold hover:bg-purple-600 hover:text-white transition-all duration-300">
                 Learn More
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="flex justify-center">
             <div className="relative">

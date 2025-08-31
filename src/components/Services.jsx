@@ -10,23 +10,23 @@ const Services = () => {
     {
       id: 1,
       icon: <Heart className="w-8 h-8" />,
-      title: "Personal Development",
-      description: "Build self-confidence, overcome limiting beliefs, and discover your authentic self.",
-      details: "Our personal development coaching focuses on helping you understand your values, strengths, and goals. We work together to create actionable plans that align with your vision for personal growth and fulfillment."
+      title: "About Me",
+      description: "Inspire students with engaging and innovative curriculums.",
+      details: "I have over 27 years of experience working with special needs students and their families. I started my career as a paraprofessional and became a certified general and special education teacher. I am board certified in special education  through the National Association of Special Education Teachers (NASET) and I’m on their advisory board. I have also served as a UFT Teacher Center Site Coach and an IEP Coordinator for the New York City Public Schools."
     },
     {
       id: 2,
       icon: <Users className="w-8 h-8" />,
-      title: "Relationship Coaching",
-      description: "Improve communication skills and build stronger, healthier relationships.",
-      details: "Learn effective communication strategies, conflict resolution techniques, and how to build meaningful connections with others. Whether it's family, friends, or romantic relationships, we'll help you navigate challenges with confidence."
+      title: "Advocacy Coach",
+      description: "We will make a difference for your students together.",
+      details: "We will assist students with disabilities to receive appropriate services and accommodations by accompanying parents to their child's IEP or 504 meetings. We aim to help families navigate complex educational systems and understand their rights under IDEA and section 504. We will ensure schools comply with federal and state special education laws. We will stay updated on legal changes and help institutions adapt policies accordingly. We will help develop appropriate Functional Behavioral Assessments (FBAs) and Behavior Intervention Plans (BIPs.)"
     },
     {
       id: 3,
       icon: <Target className="w-8 h-8" />,
-      title: "Goal Achievement",
-      description: "Transform your dreams into actionable plans with strategic guidance.",
-      details: "We'll break down your big dreams into manageable steps, create accountability systems, and develop strategies to overcome obstacles. From career transitions to personal milestones, we'll help you achieve what matters most."
+      title: "Educational Consultant",
+      description: "Become the highly effective teacher you were meant to be.",
+      details: "We will analyze student data and assessments to recommend tailored interventions. We will support the creation and implementation of effective IEPs and 504 plans. We will coach educators in developing inclusive lesson plans and assessments."
     }
   ];
 

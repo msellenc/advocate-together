@@ -7,31 +7,10 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">About Advocate Together</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">About Advocate Together Coaching LLC</h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              At Advocate Together Coaching LLC, we believe that everyone has the power to create positive 
-              change in their lives. Our mission is to provide personalized coaching that empowers individuals 
-              to find their voice, build confidence, and advocate for themselves and others.
+              We empower families, educators, and students through expert coaching in special education advocacy. Our mission is to simplify complex systems, support inclusive practices, and ensure every child receives the services they deserve. We offer personalized guidance on IEPs, 504 Plans, and school collaboration, while fostering confidence and clarity for parents navigating their child’s educational journey. Together, we build bridges, champion equity, and drive meaningful change in education. We will ensure that your child’s privacy is secure by following FERPA and HIPAA laws.
             </p>
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              With years of experience in personal development and a deep commitment to helping others, 
-              we create a safe, supportive environment where transformation can happen. Together, we'll 
-              navigate challenges, celebrate victories, and build the skills you need for lasting success.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-sm">
-                <Heart className="w-5 h-5 text-purple-600 mr-2" />
-                <span className="text-gray-700">Compassionate Approach</span>
-              </div>
-              <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-sm">
-                <Users className="w-5 h-5 text-purple-600 mr-2" />
-                <span className="text-gray-700">Personalized Support</span>
-              </div>
-              <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-sm">
-                <Target className="w-5 h-5 text-purple-600 mr-2" />
-                <span className="text-gray-700">Results-Driven</span>
-              </div>
-            </div>
           </div>
           <div className="flex justify-center">
             <div className="relative">

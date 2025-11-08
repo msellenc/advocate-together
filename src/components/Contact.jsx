@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 // Contact Section
@@ -26,16 +25,20 @@ const Contact = () => {
               <Phone className="w-6 h-6 text-pink-400 mr-4" />
               <div className="text-center">
                 <h4 className="font-semibold">Phone</h4>
-                <p className="text-purple-100">(516) 362-0296</p>
+                <a href="tel:+15166592610">
+                  <p className="text-purple-100">(516) 659-2610</p>
+                </a>
               </div>
             </div>
             <div className="flex items-center justify-center">
               <Mail className="w-6 h-6 text-pink-400 mr-4" />
               <div className="text-center">
                 <h4 className="font-semibold">Email</h4>
-                <p className="text-purple-100">
-                  advocatetogethercoaching@gmail.com
-                </p>
+                <a href="mailto:advocatetogethercoaching@gmail.com">
+                  <p className="text-purple-100">
+                    advocatetogethercoaching@gmail.com
+                  </p>
+                </a>
               </div>
             </div>
             <div className="flex items-center justify-center">

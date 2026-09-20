@@ -72,6 +72,9 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
+          <p className="text-gray-400 mb-2">
+            "If God is for us, who can be against us?" Romans 8:31
+          </p>
           <p className="text-gray-400">
             © 2025 Advocate Together Coaching LLC. All rights reserved.
           </p>
